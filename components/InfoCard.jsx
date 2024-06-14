@@ -26,7 +26,7 @@ const InfoCard = ({searchResult}) => {
 
                 <div className={"flex justify-between items-end pt-5"}>
                     <p className={"flex items-center"}>
-                        <StarIcon className={"h-5 text-red-400"} />
+                        <StarIcon className={"h-4 text-red-400"} />
                         {star}
                     </p>
 

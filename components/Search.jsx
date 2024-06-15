@@ -22,7 +22,7 @@ const Search = ({searchResults}) => {
 
                 <section className={"pt-14 px-6 flex-grow"}>
                     <p className={"text-xs"}>300+ Stays {range}  for {guestNumber} guests</p>
-                    <h1 className={"text-3xl font-semibold mb-6 mt-2"}>Stays in {location}</h1>
+                    <h1 className={"text-3xl font-semibold mb-6 mt-3"}>Stays in {location}</h1>
 
                     <div className={"hidden lg:inline-flex space-x-3 text-gray-800 whitespace-nowrap pb-5"}>
                         <p className={"button"}>Cancellation Flexible</p>

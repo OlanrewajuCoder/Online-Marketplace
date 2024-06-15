@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <div className={"grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-y-10 py-14 px-32 bg-gray-100"}>
-            <div className={"space-y-4 text-sm text-gray-800"}>
+        <div className={"grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-y-12 py-12 px-30 bg-gray-100"}>
+            <div className={"space-y-5 text-sm text-gray-800"}>
                 <h5 className={"font-bold"}>ABOUT</h5>
                 <p> How Airbnb works</p>
                 <p> Newsroom</p>

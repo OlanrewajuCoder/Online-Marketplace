@@ -14,9 +14,9 @@ const Home = ({exploreData, cardsData}) => {
 
             <Header placeholder={"Start your search..."} />
             <Hero />
-            <main className={"max-w-7xl mx-auto px-8 sm:px-16"}>
-                <section className={"pt-6"}>
-                    <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
+            <main className={"max-w-8xl mx-auto px-8 sm:px-16"}>
+                <section className={"pt-5"}>
+                    <h2 className="text-4xl font-semibold pb-6">Explore Nearby</h2>
 
                     <div className={"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"}>
                         {exploreData?.map(({img, distance, location}, index) => <SmallCard key={index} img={img} distance={distance} location={location} />)}
